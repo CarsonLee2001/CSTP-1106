@@ -1,0 +1,14 @@
+.bluefont {
+    color: rgb(0, 66, 207);
+}
+.redfont {
+    color: rgb(207, 0, 0);
+}
+.greenfont {
+    color: rgb(27, 155, 22);
+}
+.blacktitle {
+    color: rgb(0, 0, 0);
+    background-color:rgb(133, 3, 3) ;
+    text-align: center;
+}
