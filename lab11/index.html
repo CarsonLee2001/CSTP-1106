@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        .addStyle {
+            background-color: rgb(255, 94, 94);
+        }
+
+        .subStyle {
+            background-color: rgb(86, 255, 86);
+        }
+
+        .mulStyle {
+            background-color: rgb(255, 255, 96);
+        }
+        
+        .divStyle {
+            background-color: rgb(45, 222, 253);
+        }
+
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src ="code.js"></script>
+
+</head>
+<body>  
+    <div>First operand:<input id = "operand_1" value = "2"> </input></div>
+    <div>Second operand:<input id = "operand_2" value = "2"> </input></div>
+
+    <button class = "button" id = "add_"> + </button>
+    <button class = "button" id = "sub_"> - </button>
+    <button class = "button" id = "mul_"> * </button>
+    <button class = "button" id = "div_"> / </button>
+
+    <div>Result: <span id="result"> </span></div>  
+
+    <h2> History </h2>
+    
+    <div id="history"> </div>
+
+
+</body>
+</html>
