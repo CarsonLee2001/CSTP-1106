@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+        }
+
+        nav a {
+            display: inline-block;
+            color: #f2f2f2;
+            text-decoration: none;
+            padding: 14px 16px;
+            text-align: center;
+        }
+
+        nav a:hover {
+            color: #333;
+            background-color: #f2f2f2;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        #dummy_div {
+            display: flex;
+            flex-direction: row;
+        }
+
+
+        @media screen and (max-width: 550px) {
+            main {
+                flex-direction: column;
+                gap: 0px;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            #dummy_div {
+                flex-direction: column;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Header .. Some text
+    </h1>
+    <nav>
+        <div id="dummy_div">
+            <a href="">Link 1</a>
+            <a href="">Link 2</a>
+            <a href="">Link 3</a>
+        </div>
+
+        <a href="">Link 4</a>
+    </nav>
+
+
+    <main>
+        <section>
+            <div class="img_container">
+                <img src="https://picsum.photos/300/200?random=12312" alt="">
+            </div>
+            <div class="img_container">
+                <img src="https://picsum.photos/300/200?random=23213" alt="">
+            </div>
+            <div class="img_container">
+                <img src="https://picsum.photos/300/200?random=213" alt="">
+            </div>
+        </section>
+
+        <section>
+            <div class="img_container">
+                <img src="https://picsum.photos/300/200?random=123124" alt="">
+            </div>
+            <div class="img_container">
+                <img src="https://picsum.photos/300/200?random=43543" alt="">
+            </div>
+            <div class="img_container">
+                <img src="https://picsum.photos/300/200?random=5435435" alt="">
+            </div>
+        </section>
+
+
+        <section>
+            <div class="img_container">
+                <img src="https://picsum.photos/300/200?random=324" alt="">
+            </div>
+            <div class="img_container">
+                <img src="https://picsum.photos/300/200?random=234324" alt="">
+            </div>
+            <div class="img_container">
+                <img src="https://picsum.photos/300/200?random=23432" alt="">
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
