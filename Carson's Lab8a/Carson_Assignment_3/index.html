@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="code_movie_learn_from_lesson.js"></script>
+ 
+    <style>
+        article {
+            width: 50%;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+
+    <select  id="page_size" onchange="getSelectValue();" >
+        <option value="3">3</option>
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+    </select>
+    <script>
+        function getSelectValue()
+        {
+            var selectedValue = document.getElementById("page_size").value;
+            console.log(selectedValue);
+        }
+    </script>
+    <br>
+    <article>
+        Enter movie title
+        <input type="text" id="movie_name" />
+        <button id="find_movie_info">Click Me!
+        </button>
+        <br>
+        <br>
+        <div id="buttons">
+        </div>
+        <div id="results">
+        </div>
+        </article>
+        <article id="right_div">
+    </article>
+
+</body>
+</html>
